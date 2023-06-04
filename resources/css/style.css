@@ -1,0 +1,581 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+/* Fonts */
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Amatic SC", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+  --Tulisan-bersambung:'Caveat', cursive;
+}
+
+
+/* Color */
+
+:root{
+  --color-default: #212529;
+  --color-primary: #ce1212;
+  --color-secondary: #37373f;
+}
+
+
+/* Smooth scroll behavior */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------
+General
+--------------------------*/
+
+body{
+	font-family: var(--font-default);
+	color: var(--color-default);
+	margin : 0px;	
+	padding : 0px;
+	background-color: white;
+}
+
+/*
+.wrapper {
+	position: static;
+}
+
+nav {
+	width: 100%;
+	margin : auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: white;
+	opacity: 0.9;
+	border-bottom: 1px solid; 
+	z-index: 3;  
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family : courier;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a{
+	color: #1D267D;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+/**Navigasi-cadangan**/
+
+.wrapper {
+	position: fixed;
+	width : 100%;
+	background-color: white;
+	/**position: sticky;
+	position: -webkit-sticky;
+	top: 0;**/
+	top: 0;
+	opacity: 0.9;
+	z-index: 2;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.Navigasi-Container{
+	display: flex;
+	padding: 10px 10px 10px 10px;
+}
+
+.logo-container{
+	display: flex;
+	width: 100%;
+}
+
+
+#logo{
+	width: 70px;
+	height: 50px;
+	margin: auto 0px auto 50px;
+	opacity: 1;
+}
+
+#logo-title{
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto auto auto 10px;
+	opacity: 1;
+}
+
+.menu-nav {
+	width: 100%;
+	padding-right: auto;
+	padding-left: 30%;
+}
+
+.menu-nav ul{
+	list-style-type: none;
+}
+
+.menu-nav ul li{
+	display: inline-block;
+	margin-right:10% ;
+	font-weight: bold;
+}
+
+.nav-a {
+	text-decoration: none;
+	color: #526D82;
+	opacity: 1;
+}
+
+.nav-a:hover {
+	text-decoration: underline;
+  color: var(--color-secondary);
+}
+
+.nav-a:active {
+	font-size: 12px;
+}
+
+/**end-Navigasi-cadangan**/
+
+
+/**Section-content**/
+
+.wrapper-setcion {
+	width: 100%;
+	background-color: white;
+	padding-bottom: 1px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2) ;
+	z-index: 1;
+}
+
+.content {
+	display: flex;
+	background-image: url(https://images.pexels.com/photos/7886084/pexels-photo-7886084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+	height: 400px;
+	padding-bottom: 20px;
+}
+
+.text-box{
+	margin-top: 90px;
+  margin-left: 50px;
+	width: 30%;
+	height: 300px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+	background-color: #F5F0BB;
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.text-box h1 {
+	text-align: center;
+	margin-left: 4%;
+	margin-right: auto;
+	font-size: 2vw;
+}
+
+.text-box p {
+	margin-left: 4%;
+	margin-right: auto;
+	font-size: 1.3vw;
+}
+
+     /*Tombol*/
+     
+     .container-tombol {
+     	display: flex;
+     	margin-left: 10px;
+     	margin-top: 40px;
+     }
+
+     #text-tombol{
+     	background-color: #FFB84C ;
+     	border-radius: 40px;
+     	padding: 10px 10px 13px 10px;
+     	text-decoration: none;
+     	font-weight: bold;
+     	border: 5px solid;
+     	margin: auto auto auto auto;
+     	color: white;
+     }
+     
+     #icon-vidio{
+     	width: 60px;
+	    height:50px;
+	   }
+
+     #position-tombol{
+     margin: auto auto auto 10px;
+     }
+
+     #text-tombol:hover {
+	   text-decoration: underline;
+     color: FFFAF4;
+     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+     }
+
+     #text-tombol:active {
+	   font-size: 12px;
+     }
+
+     #icon-vidio:hover {f
+	   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+	   border-radius: 10px;
+	   padding: 0px;
+     }
+
+     #icon-vidio:active {
+	   width: 50px;
+	   height:40px;
+	   
+     }
+
+     /* end-Tombol */
+
+/********************************************content-main***********************************************/
+
+.container-info {
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 80px;
+}
+.content-main {
+	position: relative;
+}
+
+/*selogan*/
+.selogan-container{
+	display: flex;
+	width: 100%;
+	border-bottom: 8px solid #9DB2BF;
+	padding-bottom: 40px;
+}
+
+#selogan{
+ font-family:var(--Tulisan-bersambung);
+ font-weight: 400 ;
+ text-align: center;
+ font-size: 60px;
+ margin: auto;
+}
+
+.inti-Word {
+ font-weight: bold;
+ color: #DB005B;
+}
+
+/**end-selogan*/
+
+/**Toko Kiri **/
+.toko {
+ width: 100%;
+ display: flex;
+ margin-top: 10%;
+}
+
+#foto-toko {
+  width: 400px;
+  height: 200px;
+  border: 10px double ;
+  border-radius: 10px;
+  margin-left: 30%;
+}
+
+.container-foto{
+	width: 100%;
+	margin: auto;
+}
+
+#text-Welcome {
+	margin: 0px;
+	font-size: 50px;
+	font-weight: 800;
+	font-family: var(--Tulisan-bersambung);
+	color: #F79327;
+}
+
+.container-welcome {
+	width: 100%;
+	margin-left: 20%;
+}
+
+/** end - Toko Kiri **/
+
+
+
+/**Toko Kanan **/
+.toko-s {
+ display: flex;
+ margin-top: 10%;
+ width: 100%;
+}
+
+#foto-toko-s {
+  width: 400px;
+  height: 200px;
+  border: 10px double black;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+
+.container-foto-s{
+	width: 100%;
+	margin: auto;
+}
+
+#text-Welcome-s {
+	margin: 0px;
+	font-size: 50px;
+	font-weight: 800;
+	font-family: var(--Tulisan-bersambung);
+	color: #F79327;
+}
+
+.container-welcome-s {
+	width: 100%;
+	padding-left: 10%;
+}
+
+#text-iklan {
+	width: 80%;
+	font-family: var(--font-secondary);
+	font-weight: 400;
+	text-align: justify;
+	color: 	#526D82;
+}
+
+/** end - Toko kanan **/
+
+.statistic {
+  display: flex;
+  margin-top: 0px;
+  background-image: url(https://images.pexels.com/photos/7886084/pexels-photo-7886084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.container-statistic-indicator{
+	margin: 10% auto 10% auto;
+}
+
+.container-statistic-indicator p {
+	font-family: var(--font-primary);
+	font-weight: 800;
+	color: white;
+	font-size: 25px;
+}
+
+.smallpage {
+	display: none; /* Default: sembunyikan halaman kecil */
+  position: fixed; /* Letakkan di posisi tetap di atas halaman */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  z-index: 9999; /* Pastikan halaman kecil tampil di atas konten lainnya */
+}
+/*******************************************footer*************************************/
+
+.wrapper-footer {
+	width: 100%;
+	padding-top: 40px;
+	z-index: 0;
+}
+
+.container-footer{
+	width: 90%;
+	margin: auto;
+	padding-left: 10%;
+	padding-right: auto;
+}
+
+.container-title-footer {
+	display: flex;
+}
+
+.text-footer-container {
+	width: 30%;
+	margin: 1% auto auto auto;
+	margin-left: 3px;
+}
+
+.text-footer-container-sosmed {
+	width: 30%;
+	margin: 1.8% auto auto auto;
+	margin-left: 3px;
+}
+
+.text-footer-container-informasi {
+	width: 30%;
+	margin: 1% auto auto auto;
+	margin-left: 3px;
+}
+
+#text-title-footer{
+	width: 40%;
+	font-family: var(--font-primary);
+	margin-bottom: 7px;
+	font-weight: bold;
+  color: #FC4F00;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #FC4F00;
+  font-size: 20px;
+}
+
+#f-1 {
+	width: 80%;
+	font-family: var(--font-secondary);
+	font-size: 15px;
+  color: #B0A4A4;
+  text-align: justify;
+}
+
+.facebook {
+	display: flex;
+	margin-bottom: 4%;
+}
+
+#facebook-footer{
+	width: 30px;
+	height: 30px;
+	opacity: 0.8;
+	margin: 0px 2px auto 0px;
+}
+
+#f-2{
+  font-family: var(--font-secondary);
+	font-size: 15px;
+  color: #B0A4A4;	
+  margin: 7px auto auto 4px;
+  text-decoration: none;
+}
+
+#email-input{
+
+  padding: 10px 30% 10px 10px;
+  border-radius: 7px;
+  border: 5px solid blanchedalmond;
+  font-family: var(--font-primary);
+  font-weight: bold;
+
+}
+
+#submit-font-form{
+	margin-top: 5%;
+	padding-top: 5%;
+  padding-left: 37%;
+  padding-right: 37%;
+  padding-bottom: 5%;
+  text-decoration: none;
+  border: none;
+  background-color: skyblue;
+  font-family: var(--font-primary);
+  font-weight: bold;
+  color: #F9F5F6;
+}
+
+/*******************************************end-footer*************************************/
+
+
+
+
+/****** PAGE PROFIL **************/
+
+/*section***Content**/
+
+#f-3{
+  font-family: var(--font-secondary);
+	font-size: 15px;
+  color: #526D82;	
+  margin: 7px auto auto 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#f-3:hover{
+	color: black;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.display-position-produk {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.container-produk {
+	width: 100%;
+	position: relative;
+	margin-top: 10%;
+	padding-bottom: 10%;
+}
+
+#title-produk {
+	padding: 1.8% 0px 20px 10% ;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#text-produk {
+	padding-left: 10px;
+	border-left: 10px solid;
+}
+
+.text-box-produk{
+	width: 25%;
+	margin: auto;
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	padding-bottom: 20px;
+	background-color: white;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+#foto-produk {
+	width: 60px;
+	height: 90px;
+	margin: auto;
+}
+
+#Produk-Name{
+	text-align: center;
+	font-family: var(--font-default);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#Price {
+  text-align: center;
+  font-family: var(--font-default);
+	font-size: 15px;
+	font-weight: bold;
+}
+.container-foto-produk {
+	margin-bottom: 7%;
+	display: flex;
+}
+/*section***Content**/
+
